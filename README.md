@@ -8,6 +8,11 @@ dive in!
 
 ![dive in](http://i.giphy.com/LlPGmmhr0GcKs.gif)
 
+## Objectives
+
+- Explore the `console` object
+- Use different logging methods
+
 ## `console`
 
 Open the console in your browser of choice. Different browsers have slightly
