@@ -47,7 +47,7 @@ And you don't just have to pass strings to `console.log()` — try this:
 console.log("I must have logged", 1000, "times today.")
 ```
 
-You should see "I must have logged 1000 times today.")
+You should see "I must have logged 1000 times today."
 
 Note that when you use strings, the comma must come _after_ the end quotation mark — this is because it's not punctuation like in English writing, but a way of telling JavaScript, "Hey, I'm going to give you something else!"
 
