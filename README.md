@@ -79,11 +79,15 @@ console.trace()
 
 ### `warn()`
 
-`console.warn()` does as its name suggests: it prints a warning. Libraries use this function to warn developers that an action they've taken _might_ not be wise — one common use-case is giving developers a heads-up about deprecations.
+`console.warn()` does as its name suggests: it prints a warning. We can use `console.warn()` to, well, warn developers that an action they've taken _might_ not be wise — one common use-case is giving developers a heads-up that some of the code they've written might no longer be supported.
 
 ``` javascript
 console.warn('Hm, you might not want to do that.')
 ```
+
+It might be a while before you find yourself needing to use `console.warn()` — but you should think of it every time you see those yellow messages in the browser's console!
+
+![console.warn()](https://curriculum-content.s3.amazonaws.com/skills-based-js/console_warn.png)
 
 ## Wrap-up
 
