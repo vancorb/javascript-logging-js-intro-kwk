@@ -1,6 +1,12 @@
 JavaScript Logging
 ---
 
+## Introduction
+
+In programming, logging is like journaling. It records a history of a running application that we can revisit, giving us insight into what was happening at a given point in time.
+
+In programming, logging let's ust revisit our application as if it was running. It's a useful tool for tracking bugs, performance, and generally ensuring that our applications are chugging along.
+
 In this lesson, we're going to focus on the methods on the `console` object. We've already made use of perhaps the most popular of these methods, `console.log()`; but there are a few more tricks up `console`'s sleeve. Let's
 dive in!
 
@@ -25,15 +31,11 @@ Now enter `console` in the console (that's a little funky to say, huh?) and pres
 
 ![console](https://curriculum-content.s3.amazonaws.com/skills-based-js/console.png)
 
-
-To start, just explore that `console` object (you can click on the arrow to expand it). What methods does `console` expose? Can you guess what some of them might do?
-
-When you've finished checking things out on your own, read on and code along to see what you might have missed. Be sure to try the examples below in your console!
-
+This is all probably a bit mystifying at the moment. You can explore that console thing (psst: it's an _object_, which we'll learn more about later), but feel free to move on to learn about how we use it.
 
 ### `log()`
 
-The venerable `console.log()` is an all-purpose logging method. In programming, _logging_ refers to the process of printing information about the program as it runs. Try it out!
+The venerable `console.log()` is an all-purpose logging _method_. (A **method** or a **function** is a bit of code that _does_ something. We _call_ them when we want them to act.) In programming, _logging_ refers to the process of printing information about the program as it runs. Try it out!
 
 ``` javascript
 console.log("I'm logging! I'm a regular lumberjack!")
@@ -79,9 +81,7 @@ console.error("Danger!", "Something bad happened!", "Time to debug!")
 
 When printed, there will be a space after each message: `"Danger! Something bad happened! Time to debug!"`.
 
-``` javascript
-console.trace()
-```
+You might ask why we'd ever need to use this — isn't the goal of writing good code to avoid errors? Well, sure, but sometimes errors are out of our control: the network could go down, data could change, or a user could enter something invalid. In these cases, it's helpful to report not only what happened (which logging _generally_ is good for) but also what kind of thing happened — in these cases, it was an error, so we use `console.error()`.
 
 ### `warn()`
 
@@ -94,6 +94,8 @@ console.warn('Hm, you might not want to do that.')
 It might be a while before you find yourself needing to use `console.warn()` — but you should think of it every time you see those yellow messages in the browser's console!
 
 ![console.warn()](https://curriculum-content.s3.amazonaws.com/skills-based-js/console_warn.png)
+
+As with `console.error()`, we use `console.warn()` to indicate in our log history that something undesirable happened, but it _shouldn't_ have broken anything (unlike an error, which could break things). Warnings, as mentioned above, could give us insight into things that might break in the future or actions that _worked_ but maybe shouldn't have — just like in real life!
 
 ## Wrap-up
 
