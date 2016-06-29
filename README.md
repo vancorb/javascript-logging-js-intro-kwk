@@ -7,7 +7,7 @@ Journals give us a window into the past, helping us discern what happened when a
 
 In programming, logging is like journaling. It records a history of a running application that we can revisit, giving us insight into what was happening at a given point in time.
 
-Logging let's ust revisit our application as if it was running. It's a useful tool for tracking bugs, performance, and generally ensuring that our applications are chugging along.
+Logging let's us revisit our application as if it was running. It's a useful tool for tracking bugs, performance, and generally ensuring that our applications are chugging along.
 
 In this lesson, we're going to look at ways to log with JavaScript. Let's dive in!
 
