@@ -3,12 +3,13 @@ JavaScript Logging
 
 ## Introduction
 
+Journals give us a window into the past, helping us discern what happened when and what its outcome was. We keep journals, traditionally, by writing things down with a timestamp (which could just be a date).
+
 In programming, logging is like journaling. It records a history of a running application that we can revisit, giving us insight into what was happening at a given point in time.
 
-In programming, logging let's ust revisit our application as if it was running. It's a useful tool for tracking bugs, performance, and generally ensuring that our applications are chugging along.
+Logging let's ust revisit our application as if it was running. It's a useful tool for tracking bugs, performance, and generally ensuring that our applications are chugging along.
 
-In this lesson, we're going to focus on the methods on the `console` object. We've already made use of perhaps the most popular of these methods, `console.log()`; but there are a few more tricks up `console`'s sleeve. Let's
-dive in!
+In this lesson, we're going to look at ways to log with JavaScript. Let's dive in!
 
 ![dive in](http://i.giphy.com/LlPGmmhr0GcKs.gif)
 
