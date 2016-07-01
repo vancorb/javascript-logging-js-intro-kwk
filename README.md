@@ -28,6 +28,12 @@ Logs are important for debugging and for understanding how our programs work. Th
 
 Open the console in your browser of choice.
 
+**Top Tip**: If you already have the console open but you find that it's getting a little cluttered, you can clear it out by clicking the "Clear console" button — it looks like this in Chrome:
+
+![clear console](https://curriculum-content.s3.amazonaws.com/skills-based-js/clear_console.png)
+
+Alternatively, you can press "command + K" or "ctrl + L" to make your console look fresh and new.
+
 Now enter `console` in the console (that's a little funky to say, huh?) and press "enter". In Chrome, you'll see something like
 
 ![console](https://curriculum-content.s3.amazonaws.com/skills-based-js/console.png)
