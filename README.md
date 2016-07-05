@@ -3,7 +3,7 @@ JavaScript Logging
 
 ## Introduction
 
-Journals give us a window into the past, helping us discern what happened when and what its outcome was. We keep journals, traditionally, by writing things down with a timestamp (which could just be a date).
+Journals give us a window into the past, helping us discern what happened when and what the outcome was. We keep journals, traditionally, by writing things down with a timestamp (which could just be a date).
 
 In programming, logging is like journaling. It records a history of a running application that we can revisit, giving us insight into what was happening at a given point in time.
 
@@ -111,3 +111,5 @@ As with `console.error()`, we use `console.warn()` to indicate in our log histor
 ## Resources
 
 - [MDN: Console](https://developer.mozilla.org/en-US/docs/Web/API/Console)
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/javascript-logging'>JavaScript Logging</a> on Learn.co and start learning to code for free.</p>
