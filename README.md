@@ -17,12 +17,6 @@ In this lesson, we're going to look at ways to log with JavaScript. Let's dive i
 1. Explore the `console` object
 2. Use different logging methods
 
-## Why log?
-
-Think of logging like journaling. Journaling gives us a way to record things that happened over the course of a day; logging gives our programs a way to record what happened while they were running.
-
-Logs are important for debugging and for understanding how our programs work. They give us important insight into the state of the application as it was running, and, like journals, they give us a way to go back in time and reflect on what happened: why it worked or why it went wrong.
-
 ## `console`
 
 Open the console in your browser of choice.
