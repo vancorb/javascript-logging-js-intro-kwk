@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Journals give us a window into the past, helping us discern what happened when and what its outcome was. We keep journals, traditionally, by writing things down with a timestamp (which could just be a date).
+Journals give us a window into the past, helping us discern what happened when and what the outcome was. We keep journals, traditionally, by writing things down with a timestamp (which could just be a date).
 
 In programming, logging is like journaling. It records a history of a running application that we can revisit, giving us insight into what was happening at a given point in time.
 
