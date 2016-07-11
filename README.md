@@ -61,7 +61,7 @@ Note that when you use strings, the comma must come _after_ the end quotation ma
 
 ### `error()`
 
-`console.error()` prints an error and usually includes a _stack trace_. "Stack traces" is a report of code that was executed at a certain time (in this case, starting from when the error occurred and working backwards). Enter the following in your console:
+`console.error()` prints an error and usually includes a _stack trace_. A "stack trace" is a report of code that was executed at a certain time (in this case, starting from when the error occurred and working backwards). Enter the following in your console:
 
 ``` javascript
 console.error('Danger, Will Robinson!')
